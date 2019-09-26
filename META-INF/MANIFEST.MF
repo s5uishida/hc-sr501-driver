@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: java driver for hc-sr501 - pir motion detector sensor module
+Bundle-SymbolicName: hc-sr501-driver
+Bundle-Version: 0.1.0
+Automatic-Module-Name: hc-sr501-driver
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.pi4j.io.gpio;version="1.2.0",
+ com.pi4j.io.gpio.event;version="1.2.0",
+ org.slf4j;version="[1.7.25,1.8.0)"
+Bundle-Vendor: Shigeru Ishida (s5uishida)
+Export-Package: io.github.s5uishida.iot.device.hcsr501.driver;version="0.1.0"
