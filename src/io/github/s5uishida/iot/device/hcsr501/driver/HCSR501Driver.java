@@ -44,7 +44,7 @@ public class HCSR501Driver {
 	private HCSR501GpioPinListenerDigital hcsr501Listener;
 
 	synchronized public static HCSR501Driver getInstance() {
-		return getInstance(RaspiPin.GPIO_10, null);
+		return getInstance(RaspiPin.GPIO_12, null);
 	}
 
 	synchronized public static HCSR501Driver getInstance(Pin gpioPin) {
